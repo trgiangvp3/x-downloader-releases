@@ -39,20 +39,20 @@ biểu tượng 3 thanh màu cam. Chuột phải vào biểu tượng:
 
 Trình duyệt tự mở trang `localhost:4321`. Trên trang đó:
 
-1. Bấm **🌐 Lựa phim (proxy)** → một cửa sổ trình duyệt mở ra trang web. Tìm video bạn muốn, copy đường link.
-2. Dán link vào ô **URLs** (mỗi link một dòng).
-3. Chọn thư mục lưu (nút **Browse…**).
-4. Bấm **Download All**. Theo dõi tiến độ ở bảng **Download Queue**.
+1. Lần đầu: bấm bánh răng **⚙ Cài đặt** góc trên phải → **Lưu vào** → **Chọn…** thư mục lưu video.
+2. Bấm **🌐 Lựa phim ▾** → chọn trang → một cửa sổ trình duyệt mở ra trang web. Tìm video bạn muốn, copy đường link.
+3. Dán link vào ô **Dán link video** (mỗi dòng 1 link) → bấm **＋ Thêm vào hàng đợi**.
+4. Bấm **▶ Tải tất cả**. Theo dõi tiến độ ở mục **Hàng đợi**.
 
-Góc trên phải có chấm **WARP: connected** màu xanh là đã vượt chặn thành công, sẵn sàng tải.
+Góc trên phải hiện **WARP: bật** màu xanh là đã vượt chặn thành công, sẵn sàng tải.
 
 ## 💡 Mẹo & xử lý sự cố
 
 | Tình huống | Cách xử lý |
 |---|---|
-| Không vào được trang web | Kiểm tra đã cài WARP chưa, và chấm WARP góc phải có xanh không. Chưa cài thì làm lại Bước 1. |
-| Bấm play mãi không ra link | Công cụ đã tự chặn quảng cáo và thử lại nhiều lần. Cứ chờ, hoặc bấm lại **Download All**. |
-| Tải chậm | Để mặc định (tải trực tiếp) là nhanh nhất. Đừng bật "Download via proxy" trừ khi cần. |
+| Không vào được trang web | Kiểm tra đã cài WARP chưa, và góc phải có hiện **WARP: bật** màu xanh không. Chưa cài thì làm lại Bước 1. |
+| Mãi không lấy được link | Công cụ đã tự chặn quảng cáo và thử lại nhiều lần. Cứ chờ, hoặc bấm lại **▶ Tải tất cả**. |
+| Tải chậm | Để mặc định (tải trực tiếp) là nhanh nhất. Đừng bật **Tải qua proxy** trong Cài đặt trừ khi cần. |
 | Đóng mất trang điều khiển | Chuột phải biểu tượng ở khay → **Mở giao diện** (hoặc mở lại shortcut trên Desktop). |
 | Chương trình báo dừng bất ngờ | Chọn mở log, chụp màn hình gửi người đưa bạn tool. |
 | Muốn gỡ bỏ | **Settings → Apps → X Downloader → Uninstall**. |
